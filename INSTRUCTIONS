@@ -1,0 +1,12 @@
+To run STNV assembly simulation code
+
+(1) Type make to create the executable
+(2) The current options file contains the settings used in the paper.
+(3) The initalRNA file contains the 1024 starting RNA sequences used in the genetic algorithm.
+
+To run:
+On the command line, type ./Vassembly.x -p options.dat -i stnv.rna -o stnv.output
+
+options.dat ===> settings for the assembly simulation
+stnv.rna ====> one of the RNAs from intialRNA
+stnv.output ====> Output information on the hamiltonian paths and number of capsids assembled.

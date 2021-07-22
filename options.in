@@ -1,0 +1,13 @@
+stnv.parm      #Parameter File
+stnv.hmap      #Hamiltonian NMap
+stnv.rna       #Data for RNA Binding
+stnv.out       #Output Data File
+2000           #Number of RNAs
+120000          #Number of CPs
+0.70           #Volume (cubic uM)
+298.15         #Temperature (K)
+1.0d6          #CP-CP 1st Order Rate (1/s)
+1.0d6          #CP-CP 2nd Order Rate (1/Ms)
+0.000          #Current Time (sec)
+1000.0         #Final Time (sec)
+71275         #Seed for Random Number
